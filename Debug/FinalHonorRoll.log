@@ -1,0 +1,7 @@
+﻿  Functions.cpp
+C:\Users\rcson\source\repos\FinalHonorRoll\Functions.h(1,14): warning C4083: expected 'newline'; found identifier 'FUNCTIONS_H'
+C:\Users\rcson\source\repos\FinalHonorRoll\Functions.cpp(46,6): warning C4101: 'grade': unreferenced local variable
+C:\Users\rcson\source\repos\FinalHonorRoll\Functions.cpp(88,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\rcson\source\repos\FinalHonorRoll\Functions.cpp(99,23): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\rcson\source\repos\FinalHonorRoll\Functions.cpp(128,21): warning C4018: '<': signed/unsigned mismatch
+  FinalHonorRoll.vcxproj -> C:\Users\rcson\source\repos\FinalHonorRoll\Debug\FinalHonorRoll.exe

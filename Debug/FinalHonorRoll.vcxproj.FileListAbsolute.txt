@@ -1,0 +1,2 @@
+C:\Users\rcson\source\repos\FinalHonorRoll\Debug\FinalHonorRoll.exe
+C:\Users\rcson\source\repos\FinalHonorRoll\Debug\FinalHonorRoll.pdb
