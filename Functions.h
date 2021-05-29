@@ -1,3 +1,4 @@
+//Test comment to check pusing code to GitHub
 #pragma once FUNCTIONS_H
 #define FUNCTIONS_H
 #include <string>
@@ -37,7 +38,7 @@ private:
 	string courseName = "";
 	int courseGrade = -1;
 public:
-	//Creating the Class Constructor
+	//Creating the Class Constructors
 	Course();
 	Course(string courseName, int courseGrade);
 	//Defining all of the functions used in the class
