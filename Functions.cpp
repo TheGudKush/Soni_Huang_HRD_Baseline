@@ -133,11 +133,33 @@ void Student::printInfo() {
 	//Printing out the Average, Disciplinary Infraction, and Honor Roll Elligibility
 	std::cout << "\n";
 	std::cout << "Average is: " << this->average << "\n";
+	std::cout << "Disciplinary Issue: " << this->disciplineIssue << "\n";
 	if (this->honorRoll == 1) {
 		std::cout << "Congratulations " << this->studentName << "! You have made the honor roll.\n";
 	}
 	else {
 		std::cout << "I'm sorry " << this->studentName << " but you didn't qualify for the honor roll.\n";
+	}
+}
+
+void Student::adminMode() {
+	std::cout << "Enter admin password: ";
+	string password;
+	cin >> password;
+	if (password == "1111") {
+		cout << "Welcome Admin\n";
+		cout << "Do you want the student to have a disciplinary issue (y/n): ";
+		string issue;
+		cin >> issue;
+		if ((issue == "y") || (issue == "Y")){
+			this->disciplineIssue = true;
+		}
+		else {
+			this->disciplineIssue = false;
+		}
+	}
+	else {
+		cout << "Incorrect Password\n";
 	}
 }
 
