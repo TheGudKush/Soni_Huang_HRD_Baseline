@@ -29,6 +29,7 @@ public:
 	bool getHonorRoll();
 	void printInfo();
 	bool getValidInt(int& t_int);
+	void adminMode();
 };
 //Course Class
 class Course {
